@@ -41,7 +41,18 @@ html,body{background:#1a1915;width:100%;height:100%;overflow:hidden;font-family:
   position:relative;
   overflow:hidden;
 }
+html, body{
+  width:100%;
+  height:100%;
+  margin:0;
+  background:#1a1915;
+}
 
+body{
+  display:flex;
+  justify-content:center;   /* horizontal */
+  align-items:center;       /* vertical */
+}
 .slide{
   position:absolute;inset:0;background:var(--warm);
   display:flex;align-items:stretch;
